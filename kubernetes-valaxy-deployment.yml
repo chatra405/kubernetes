@@ -1,6 +1,6 @@
 ---
 - name: Create pods using deployment 
-  hosts: k8s-master 
+  hosts: k8
   become: true
   user: ansadmin
  
