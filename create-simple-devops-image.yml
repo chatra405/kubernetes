@@ -11,7 +11,7 @@
     command: docker tag tomcat-web chatra/tomcat-web
 
   - name: push image on to dockerhub
-    command: sudo docker push chatra/tomcat-web
+    command: docker push chatra/tomcat-web
 
   - name: remove docker images form ansible server
     command: docker rmi  tomcat-web:latest chatra/tomcat-web
